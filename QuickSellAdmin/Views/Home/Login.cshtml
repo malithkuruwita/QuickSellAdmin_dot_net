@@ -1,0 +1,42 @@
+﻿@model QuickSellAdmin.Models.adminAccount
+
+
+
+    <div class="upper-div">
+        <h3 class=" login-header">Welcome To QuickSell</h3>
+        
+            <div class="container">
+                <div class="row row-centered" style="display:flex;justify-content:center;align-items:center;padding-top:50px;">
+                    <div class="col-md-6  main-section">
+                        <div class="model-content">
+
+                            @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                            {
+
+                                <div class="form-group">
+                                   
+                                    @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control usinput", @placeholder = "Username" } })
+                                    @Html.ValidationMessageFor(model => model.Username)
+                                </div>
+
+                                <div class="form-group">
+                                    
+                                    @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", @placeholder = "Password" } })<br/>
+                                    @Html.ValidationMessageFor(model => model.Password)
+                                </div>
+
+                                <button type="submit" class="btn login-button" style="width: 40%;margin-bottom:20px;margin-left:auto;margin-right:auto;"><i class="fas fa-sign-in-alt login-icon"></i>Login</button>
+
+                            }
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>

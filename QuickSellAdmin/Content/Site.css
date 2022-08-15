@@ -1,0 +1,148 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.field-validation-error{
+    color:#c80c4d;
+    font-weight:bold;
+}
+
+input.input-validation-error {
+    border: 1px solid #c80c4d;
+}
+
+
+
+
+
+/*login form*/
+
+
+.upper-div {
+    background-color: #0efe55;
+}
+
+
+.login-header {
+    text-align: center;
+    padding-top: 10px;
+    color: #1910f2;
+    font-family: 'Goudy Old Style';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+
+
+.model-dialog {
+    height: 100%;
+}
+
+.main-section {
+   
+    padding-bottom: 100px;
+}
+
+.model-content {
+    height:200px;
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 20px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img {
+    margin-top: -50px;
+    padding-top: 20px;
+    margin-bottom: 35px;
+    width: 100px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.login-form-group {
+    margin-bottom: 25px;
+}
+
+    .login-form-group input {
+        height: 42px;
+        border-radius: 5px;
+        border: 0;
+        font-size: 18px;
+    }
+
+
+
+
+
+.login-button {
+    margin: 5px 0 25px;
+    margin-bottom:20px;
+    background-color: #1910f2;
+    font-family: 'Goudy Old Style';
+    font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+    .login-button:hover {
+        color: #0efe55;
+        -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        transform: scale(1.05);
+        transition: .5s ease-in-out;
+    }
+
+
+
+.login-icon {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+
+
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+    text-align: center;
+ 
+}
+
+.usinput {
+    margin-left: auto;
+    margin-right: auto;
+}
